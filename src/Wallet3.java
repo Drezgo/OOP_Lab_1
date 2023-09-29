@@ -47,7 +47,7 @@ public class Wallet3 {
     void statistics() {
         System.out.println("_____________________________3ій гаманець_____________________________________________________");
         System.out.println("Ваш унікальний код рахунку: " + uniCode.toString());
-        System.out.println("Баланс Вашої крартки: " + activeBalanceUAH + " гривень");
+        System.out.println("Баланс Вашої крартки: " + (double) Math.round(activeBalanceUAH * 100) /100 + " гривень");
         System.out.println("Баланс Вашої 1 валютної крартки: " + activeBalanceUSD + " $");
         System.out.println("Баланс Вашої 2 валютної крартки: " + activeBalanceEUR + " €");
         System.out.println();

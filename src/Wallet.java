@@ -58,12 +58,12 @@ public class Wallet {
     }
 
 
-    //Статистика кожної ітерації
+    //Статистика кожної ітерації (перевантажений метод)
     void statistics() {
         System.out.println();
         System.out.println("__________________________ "+exchangeUSD+" $ / "+exchangeEUR+" € ________________________________");
         System.out.println("Ваш унікальний код рахунку: " + uniCode.toString());
-        System.out.println("Баланс Вашої крартки: " + activeBalanceUAH + " гривень");
+        System.out.println("Баланс Вашої крартки: " + (double) Math.round(activeBalanceUAH * 100) /100 + " гривень");
         System.out.println("Баланс Вашої 1ої валютної крартки: " + activeBalanceUSD + " $");
         System.out.println("Баланс Вашої 2ої валютної крартки: " + activeBalanceEUR + " €");
         System.out.println();
