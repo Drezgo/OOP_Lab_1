@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    //Створюю простий банківський додаток
+    //Створюю простий банківський застосунок
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Wallet wallet = new Wallet(0,0,0,36.93,39.33);
@@ -14,7 +14,7 @@ public class Main {
 
         //Діалогове меню
         System.out.println("#############################################################################################");
-        System.out.println("Створюємо власний рахунок: ");
+        System.out.println("  Створюємо власний рахунок: ");
         wallet.inputBalance();
         //Методичка
         wallet2.inputBalance(10000);
