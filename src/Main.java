@@ -57,7 +57,7 @@ public class Main {
                     break;
                 case 0:
                     activeSession=false;
-                    System.out.println("           ДО ПОБАЧЕННЯ!");
+                    System.out.println("           ДО ПОБАЧЕННЯ! ");
                     break;
                 default:
                     System.out.println("ERROR");
